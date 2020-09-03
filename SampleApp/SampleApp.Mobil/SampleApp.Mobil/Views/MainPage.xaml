@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SampleApp.Mobil.Views.MainPage"
+             Title="{Binding Title}">
+
+    <StackLayout HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
+        <Label Text="Welcome to Xamarin Forms and Prism!" />
+
+        <Label Text="URI:"/>
+        <Entry Text="{Binding UriAddress}" />
+
+        <Label Text="To:"/>
+        <Entry Text="{Binding To}" />
+
+        <Label Text="Subject:"/>
+        <Entry Text="{Binding Subject}" />
+
+        <Label Text="Body:"/>
+        <Entry Text="{Binding Body}" />
+
+        <Button Command="{Binding SendMail}" />
+
+    </StackLayout>
+
+</ContentPage>
