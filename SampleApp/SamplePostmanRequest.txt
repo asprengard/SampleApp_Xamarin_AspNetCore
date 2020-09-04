@@ -1,6 +1,6 @@
 Body:
 {
-    "To": "silke-sprengard@outlook.de",
+    "To": "someone.user@provider.com",
     "Subject": "Test Email from Sample Api",
     "Body" : "<p>Some HTML Text</p>"
 }
